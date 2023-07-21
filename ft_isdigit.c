@@ -27,4 +27,5 @@ int main()
     printf("A -> %d\n",ft_isdigit('A'));
     printf("5 -> %d\n",ft_isdigit('5'));
     printf("& -> %d\n",ft_isdigit('&'));
+    printf("A -> %d\n",ft_isdigit(65));
 }*/

@@ -26,4 +26,6 @@ int main()
     printf("a -> %c\n",ft_tolower('a'));
     printf("A -> %c\n",ft_tolower('A'));
     printf("5 -> %c\n",ft_tolower('5'));
+    printf("A -> %c\n",ft_tolower(65));
+    printf("a -> %c\n",ft_tolower(97));
 }*/

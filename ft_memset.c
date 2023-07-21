@@ -46,6 +46,30 @@ int main() {
     int *new_array2 = ft_memset(dizi2,'.',3);
 
     printf("%c %d %d\n",new_array2[0],new_array2[1],new_array2[2]);
+
+    printf("---------------\n");
+
+	int *dizi4 = (int *)malloc(sizeof(int) * 3);
+    dizi4[0] = 1;
+    dizi4[1] = 2;
+    dizi4[2] = 3;
+
+    dizi4 = ft_memset(dizi4,2,2);
+    
+    printf("%d %d %d",dizi4[0],dizi4[1],dizi4[2]);
+
+    printf("---------------\n");
+
+
+	int *dizi5 = (int *)malloc(sizeof(int) * 3);
+    dizi5[0] = 1;
+    dizi5[1] = 2;
+    dizi5[2] = 3;
+
+    dizi5 = ft_memset(dizi5,'.',3);
+    
+    printf("%d %d %d\n",dizi5[0],dizi5[1],dizi5[2]);
+    printf("%c",dizi5[0]);
     
 	return 0;
 }*/
